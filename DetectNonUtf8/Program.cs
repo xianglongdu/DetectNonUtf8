@@ -14,17 +14,6 @@ namespace DetectNonUtf8
 
         static void Main(string[] args)
         {
-            //string path = "HpPkg.dec";
-
-            //string[] filePaths = Directory.GetFiles(@"F:\FW\Temp\RimuTrunk");
-            //Thread[] SearchTask = new Thread[filePaths.Length];
-
-
-            //for (int i = 0; i < filePaths.Length; i++)
-            //{
-            //    SearchTask[i] = new Thread(() => SearchFile(filePaths[i]));
-            //    SearchTask[i].Start();
-            //}
             string DirPath = null;
 
             if (args.Length == 0)
